@@ -1,0 +1,6 @@
+body {
+    background-image: url("../../public/images/expense-tracker-4-bg.png");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
