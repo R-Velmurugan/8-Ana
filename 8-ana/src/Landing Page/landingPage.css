@@ -22,6 +22,15 @@ body::before {
     width: 100vw;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-image-with-logo-name{
+    width: 50%;
+}
+
 h1{
     color: #1E8795;
     font-family: 'Lilita One', sans-serif;
@@ -38,10 +47,56 @@ h1{
     background-repeat: no-repeat;
     background-position-x: 15%;
     background-position-y: 90%;
-    background-size: 30%;
+    background-size: 50%;
 }
 
 .hero-image{
-    width: 50%;
+    width: 80%;
     object-fit: contain;
 }
+
+.line{
+    border: 5px solid black;
+    margin: 10% 0 0;
+    border-radius: 100px;
+}
+
+.login-form-container{
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 30%;
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type = submit]{
+    background-color: #A556F3;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type = text] , [type = password]{
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #CBC8C8;
+}
+
