@@ -18,7 +18,7 @@ function LandingPage(){
                 </div>
                 <div className="line"></div>
                 <div className="login-form-container">
-                    <form className="login-form" action="">
+                    <form className="login-form" action="" method="post">
                         <label htmlFor="userName">Username or email</label>
                         <input type="text" id = "userName" name = "userName" /><br/>
                         <label htmlFor="password">Password</label>
